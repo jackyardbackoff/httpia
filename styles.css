@@ -1,0 +1,56 @@
+body {
+    background-color:black;
+    color:white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.menu {
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    text-align:center;
+    padding: 1% 2%;
+}
+
+.title {
+    float:left;
+    margin-left:2.5%;
+    padding-right:115px;
+    text-decoration:none;
+    color:white;
+    font-size:xx-large;
+    font-weight:bold;
+}
+
+.item {
+    float:left;
+    font-size:auto;
+    text-align:center;
+    padding: 5% 4%;
+}
+
+.item a {
+    text-decoration:none;
+}
+
+.item a:hover {
+    text-decoration:2px dotted underline;
+}
+
+.TM_text {
+    padding-top:20px;
+}
+
+.main {
+    overflow-y:auto;
+}
+
+.main h2 {
+    font-size:x-large;
+}
+
+.footer {
+    display:grid;
+    grid-template-columns: 30% auto auto auto;
+    text-align:center;
+}
