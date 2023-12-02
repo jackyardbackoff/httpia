@@ -38,7 +38,7 @@ body {
 }
 
 .TM_text {
-    padding-top:20px;
+    padding-top:25px;
 }
 
 .main {
@@ -47,6 +47,7 @@ body {
 
 .main h2 {
     font-size:x-large;
+    padding-bottom:5px;
 }
 
 .footer {
