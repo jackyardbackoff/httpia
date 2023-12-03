@@ -3,6 +3,7 @@ body {
     color:white;
     margin-left: 15%;
     margin-right: 15%;
+    line-height:1.6;
 }
 
 .menu {
@@ -50,8 +51,62 @@ body {
     padding-bottom:5px;
 }
 
-.footer {
+.footer_btm {
     display:grid;
-    grid-template-columns: 30% auto auto auto;
+    grid-template-columns: 70% 30%;
+    text-align:left;
+    padding-left:46px;
+    padding-right:76px;
+}
+
+.contact_info {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
     text-align:center;
+}
+
+.contact_info a {
+    text-decoration:none;
+    font-size:normal;
+    color: white;
+}
+
+.uni_main .top {
+    display:grid;
+    grid-template-columns:80% 20%;
+    text-align:left;
+    font-size:large;
+}
+
+.uni_main .posts {
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+}
+
+.uni_main .posts .post {
+    background-color:yellow;
+    margin: 3px;
+    padding-left:5px;
+    text-align:center;
+
+}
+
+.uni_main .posts .post p {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.uni_main a {
+    color:white;
+    font-weight:bold;
+    font-size:large;
+}
+
+.uni_main .post_title {
+    text-decoration:none;
+    margin-bottom:15px;
+}
+
+.uni_main .post_title:hover {
+    text-decoration:2px dotted underline;
 }
