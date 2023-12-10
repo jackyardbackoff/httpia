@@ -1,21 +1,23 @@
 body {
     background-color:black;
     color:white;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin:0px 15%;
     line-height:1.6;
 }
 
 .menu {
     display:grid;
-    grid-template-columns:auto auto auto auto;
-    text-align:center;
-    padding: 1% 2%;
+    grid-template-columns:60% 13.33% 13.33% 13.33%;
+    padding: 20px 2% 20px;
 }
 
-.title {
+.menu .item a {
+    text-align:center;
+}
+
+.menu_title {
     float:left;
-    margin-left:2.5%;
+    margin-left:10%;
     padding-right:115px;
     text-decoration:none;
     color:white;
@@ -24,10 +26,9 @@ body {
 }
 
 .item {
-    float:left;
     font-size:auto;
     text-align:center;
-    padding: 5% 4%;
+    padding: 7.5% 4%;
 }
 
 .item a {
@@ -38,31 +39,74 @@ body {
     text-decoration:2px dotted underline;
 }
 
-.TM_text {
+.TM_text { /* top margin text */
     padding-top:25px;
+}
+
+.me_1 {
+    scale:45%;
+    margin:-30% 0% 0% 63%;
+    filter:drop-shadow(0 0 2rem white);
+}
+
+.me_1:hover {
+    filter:invert() drop-shadow(0 0 2rem blue);
+}
+
+.me_2 {
+    float:left;
+    filter:drop-shadow(0 0 1rem white);
+    scale:60% 50%;
+    margin:-150px 0px 0px -10px;
+}
+
+.me_2:hover {
+    filter:invert() drop-shadow(0 0 2rem blue);
+}
+
+.me_3 p {
+    width:250px;
+    height:250px;
+    background-color: red;
+    float:right;
+    margin:200px 50px 50px 0px;
 }
 
 .main {
     overflow-y:auto;
 }
 
-.main h2 {
-    font-size:x-large;
+.page_title {
+    margin-top:-167.5px;
+    font-size:50px;
+    text-shadow: -3px 3px 2px #000,
+        3px 3px 2px #000,
+        3px -3px 2px #000,
+        -3px -3px 2px #000;
     padding-bottom:5px;
+    text-align:center;
+}
+
+.about {
+    margin-top:-140px;
+    padding:0px 15px 15px;
+}
+
+.footer {
+    padding:50px 0px 20px;
+    text-align:center;
 }
 
 .footer_btm {
+    margin: 10px 0px 50px;
     display:grid;
-    grid-template-columns: 70% 30%;
-    text-align:left;
-    padding-left:46px;
-    padding-right:76px;
+    grid-template-columns: auto auto;
 }
 
 .contact_info {
     display:grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    text-align:center;
+    grid-template-columns:auto;
+    grid-auto-flow:column;
 }
 
 .contact_info a {
@@ -84,29 +128,137 @@ body {
 }
 
 .uni_main .posts .post {
-    background-color:yellow;
-    margin: 3px;
-    padding-left:5px;
+    margin: 10px 6.5px 10px;
     text-align:center;
-
+    background-color:#111111;
 }
 
 .uni_main .posts .post p {
-    margin-right:10px;
-    margin-left:10px;
+    margin:0px 15px;                                                                                                                                                                                                                                                                                                                                                                                   px;
+    padding-bottom: 20px;
+}
+
+.uni_main .post_img {
+    object-fit:cover;
+    width:100%;
+    height:160px;
+    margin:20px 0px 15px -5px;
+    border:5px solid black;
+}
+
+.uni_main .posts .tags {
+    margin:0px 17px 0px 7px;
+    display:grid;
+    grid-auto-flow:column;
+    grid-auto-columns:auto;
+    padding: 5px 0px 0px 15px;
+}
+
+.uni_main .posts .tag {
+    padding: 8px 0px 5px 0px;
+    height:10px;
+    width:auto;
+    margin:0px 5px 0px 0px;
+    background-color:mediumvioletred;
+}
+
+.uni_main .posts .tag h3 {
+    margin:-4px 10px 0px;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    color:white;
 }
 
 .uni_main a {
     color:white;
     font-weight:bold;
     font-size:large;
+    text-decoration:none;
 }
 
 .uni_main .post_title {
     text-decoration:none;
-    margin-bottom:15px;
+    margin:17.5px 0px 3px;
 }
 
 .uni_main .post_title:hover {
-    text-decoration:2px dotted underline;
+    text-decoration:2px wavy underline;
+    color:mediumvioletred;
+}
+
+.current_post h2 {
+    padding:40px 0px 0px; text-align:center; font-size:x-large;
+}
+
+.current_post .tags {
+    max-width:50%;
+    text-align:left;
+    display:grid;
+    grid-auto-flow:column;
+    grid-auto-columns:auto;
+    padding: 5px 0px 15px 15px;
+}
+
+.current_post .tag {
+    padding: 7px 0px 5px 0px;
+    height:16px;
+    width:auto;
+    margin:0px 10px 0px 0px;
+    background-color:mediumvioletred;
+}
+
+.current_post .tag h3 {
+    margin:-2.5px 2px 0px 8px;
+    font-size:13px;
+    font-weight:bold;
+    color:white;
+}
+
+.current_post .images {
+    padding:2.5px;
+    margin-bottom:70px;
+    margin-top:20px;
+}
+
+.btn {
+    width:auto;
+    margin: 2px;
+    font: 12px normal;
+    height: 27px;
+    background-color:#222222;
+    color:white;
+    float: right;
+}
+
+.pdf_nav {
+    margin:10px 0px 40px;
+}
+
+.current_post h6 {
+    font-size: small;
+    font-weight:normal;
+    margin:5px 0px 0px;
+    text-align:center;
+}
+
+.current_post .post_text {
+    margin:15px 25% 10% 15px;
+    font-size:normal;
+}
+
+.current_post .minor_image {
+    object-fit:cover;
+    width:100%;
+    height:275px;
+    border: 2.5px solid mediumvioletred;
+    margin-left:10px;
+}
+
+.current_post .half_images {
+    display:grid;
+    width:77%;
+    padding:5px;
+    grid-auto-flow:column;
+    grid-auto-columns:auto;
 }
