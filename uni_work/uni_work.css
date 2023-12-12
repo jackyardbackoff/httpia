@@ -17,8 +17,8 @@
 }
 
 .uni_main .posts .post p {
-    margin:0px 15px;                                                                                                                                                                                                                                                                                                                                                                                   px;
-    padding-bottom: 20px;
+    margin:5px 20px;                                                                                                                                                                                                                                                                                                                                                                                   px;
+    padding-bottom: 30px;
 }
 
 .uni_main .post_img {
@@ -62,8 +62,10 @@
 
 .uni_main .post_title {
     text-decoration:none;
-    margin:17.5px 0px 3px;
+    padding-top:5px;
+    margin:17.5px 5px 3px;
 }
+
 
 .uni_main .post_title:hover {
     text-decoration:2px wavy underline;
