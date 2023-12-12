@@ -1,7 +1,7 @@
 .me_1 {
     scale:45%;
     margin:-30% 0% 0% 63%;
-    filter:drop-shadow(0 0 2rem white);
+    filter:drop-shadow(0 0 2rem #EEEEEE);
 }
 
 .me_1:hover {
@@ -10,7 +10,7 @@
 
 .me_2 {
     float:left;
-    filter:drop-shadow(0 0 1rem white);
+    filter:drop-shadow(0 0 1rem #EEEEEE);
     scale:60% 50%;
     margin:-150px 0px 0px -10px;
 }

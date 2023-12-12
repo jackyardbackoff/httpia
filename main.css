@@ -1,6 +1,6 @@
 body {
-    background-color:black;
-    color:white;
+    background-color:#111111;
+    color:#EEEEEE;
     margin:0px 15%;
     line-height:1.6;
 }
@@ -20,7 +20,7 @@ body {
     margin-left:10%;
     padding-right:115px;
     text-decoration:none;
-    color:white;
+    color:#EEEEEE;
     font-size:xx-large;
     font-weight:bold;
 }
@@ -54,7 +54,6 @@ body {
     text-align:center;
 }
 
-
 .footer {
     padding:50px 0px 20px;
     text-align:center;
@@ -75,5 +74,6 @@ body {
 .contact_info a {
     text-decoration:none;
     font-size:normal;
-    color: white;
+    color: #EEEEEE;
 }
+
