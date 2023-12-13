@@ -12,19 +12,18 @@
     float:left;
     filter:drop-shadow(0 0 1rem #EEEEEE);
     scale:60% 50%;
-    margin:-150px 0px 0px -10px;
+    margin:-100px 0px 0px -10px;
 }
 
 .me_2:hover {
     filter:invert() drop-shadow(0 0 2rem blue);
 }
 
-.me_3 p {
-    width:250px;
-    height:250px;
-    background-color: red;
-    float:right;
-    margin:200px 50px 50px 0px;
+.me_3 img {
+    margin-left:100px;
+    filter:drop-shadow(0 0 1rem #EEEEEE);
+    width:20%;
+    height:auto;
 }
 
 .about {
